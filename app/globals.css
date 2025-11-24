@@ -1,0 +1,113 @@
+@import 'tailwindcss';
+@import 'tw-animate-css';
+
+@custom-variant dark (&:is(.dark *));
+
+:root {
+  /* BoGFit Custom Theme with #313647, #435663, #A3B087, #FFF8D4 */
+  --background: #FFF8D4; /* Cream background */
+  --foreground: #313647; /* Dark blue-gray text */
+  --card: #FFFFFF;
+  --card-foreground: #313647;
+  --popover: #FFFFFF;
+  --popover-foreground: #313647;
+  --primary: #313647; /* Dark blue-gray primary */
+  --primary-foreground: #FFF8D4;
+  --secondary: #435663; /* Medium blue-gray */
+  --secondary-foreground: #FFF8D4;
+  --muted: #A3B087; /* Sage green muted */
+  --muted-foreground: #313647;
+  --accent: #A3B087; /* Sage green accent */
+  --accent-foreground: #313647;
+  --destructive: oklch(0.577 0.245 27.325);
+  --destructive-foreground: #FFF8D4;
+  --border: #435663;
+  --input: #435663;
+  --ring: #A3B087;
+  --chart-1: #313647;
+  --chart-2: #435663;
+  --chart-3: #A3B087;
+  --chart-4: #FFF8D4;
+  --chart-5: #313647;
+  --radius: 0.5rem;
+}
+
+.dark {
+  --background: #313647;
+  --foreground: #FFF8D4;
+  --card: #435663;
+  --card-foreground: #FFF8D4;
+  --popover: #435663;
+  --popover-foreground: #FFF8D4;
+  --primary: #A3B087;
+  --primary-foreground: #313647;
+  --secondary: #435663;
+  --secondary-foreground: #FFF8D4;
+  --muted: #435663;
+  --muted-foreground: #A3B087;
+  --accent: #A3B087;
+  --accent-foreground: #313647;
+  --destructive: oklch(0.396 0.141 25.723);
+  --destructive-foreground: #FFF8D4;
+  --border: #435663;
+  --input: #435663;
+  --ring: #A3B087;
+  --chart-1: #A3B087;
+  --chart-2: #FFF8D4;
+  --chart-3: #435663;
+  --chart-4: #313647;
+  --chart-5: #A3B087;
+}
+
+@theme inline {
+  --font-sans: 'Geist', 'Geist Fallback';
+  --font-mono: 'Geist Mono', 'Geist Mono Fallback';
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-card: var(--card);
+  --color-card-foreground: var(--card-foreground);
+  --color-popover: var(--popover);
+  --color-popover-foreground: var(--popover-foreground);
+  --color-primary: var(--primary);
+  --color-primary-foreground: var(--primary-foreground);
+  --color-secondary: var(--secondary);
+  --color-secondary-foreground: var(--secondary-foreground);
+  --color-muted: var(--muted);
+  --color-muted-foreground: var(--muted-foreground);
+  --color-accent: var(--accent);
+  --color-accent-foreground: var(--accent-foreground);
+  --color-destructive: var(--destructive);
+  --color-destructive-foreground: var(--destructive-foreground);
+  --color-border: var(--border);
+  --color-input: var(--input);
+  --color-ring: var(--ring);
+  --color-chart-1: var(--chart-1);
+  --color-chart-2: var(--chart-2);
+  --color-chart-3: var(--chart-3);
+  --color-chart-4: var(--chart-4);
+  --color-chart-5: var(--chart-5);
+  --radius-sm: calc(var(--radius) - 4px);
+  --radius-md: calc(var(--radius) - 2px);
+  --radius-lg: var(--radius);
+  --radius-xl: calc(var(--radius) + 4px);
+}
+
+@layer base {
+  * {
+    @apply border-border outline-ring/50;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  
+  /* Added smooth scroll behavior and transitions */
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  * {
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-duration: 200ms;
+  }
+}
