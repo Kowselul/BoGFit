@@ -21,7 +21,7 @@ export function Footer() {
               <Link href="#" className="rounded-full bg-accent p-2 text-accent-foreground transition-colors hover:bg-accent/80">
                 <Facebook className="h-4 w-4" />
               </Link>
-              <Link href="#" className="rounded-full bg-accent p-2 text-accent-foreground transition-colors hover:bg-accent/80">
+              <Link href="https://www.instagram.com/bogfit1/" target="_blank" rel="noopener noreferrer" className="rounded-full bg-accent p-2 text-accent-foreground transition-colors hover:bg-accent/80">
                 <Instagram className="h-4 w-4" />
               </Link>
               <Link href="#" className="rounded-full bg-accent p-2 text-accent-foreground transition-colors hover:bg-accent/80">
