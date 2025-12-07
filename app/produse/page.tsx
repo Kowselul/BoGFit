@@ -1,6 +1,6 @@
 'use client'
 
-import { useState, useMemo, useEffect } from 'react'
+import { useState, useMemo, useEffect, Suspense } from 'react'
 import { Header } from '@/components/header'
 import { Footer } from '@/components/footer'
 import { Card } from '@/components/ui/card'
@@ -12,7 +12,7 @@ import { Input } from '@/components/ui/input'
 import Link from 'next/link'
 import { useSearchParams } from 'next/navigation'
 
-export default function ProdusePage() {
+function ProduseContent() {
   const { addToCart } = useCart()
   const searchParams = useSearchParams()
   const categoryFromUrl = searchParams.get('category')
@@ -236,5 +236,22 @@ export default function ProdusePage() {
 
       <Footer />
     </main>
+  )
+}
+
+export default function ProdusePage() {
+  return (
+    <Suspense fallback={
+      <main className="min-h-screen">
+        <Header />
+        <div className="container mx-auto px-4 py-16 text-center">
+          <div className="animate-spin h-8 w-8 border-4 border-accent border-t-transparent rounded-full mx-auto mb-4"></div>
+          <p className="text-muted-foreground">Se încarcă produsele...</p>
+        </div>
+        <Footer />
+      </main>
+    }>
+      <ProduseContent />
+    </Suspense>
   )
 }
