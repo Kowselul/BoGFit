@@ -490,8 +490,9 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$components$2f$product$2d$det
 ;
 ;
 ;
-function ProductPage({ params }) {
-    const product = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$products$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["allProducts"].find((p)=>p.id === parseInt(params.id));
+async function ProductPage({ params }) {
+    const { id } = await params;
+    const product = __TURBOPACK__imported__module__$5b$project$5d2f$lib$2f$products$2d$data$2e$ts__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["allProducts"].find((p)=>p.id === parseInt(id));
     if (!product) {
         (0, __TURBOPACK__imported__module__$5b$project$5d2f$node_modules$2f$next$2f$dist$2f$client$2f$components$2f$navigation$2e$react$2d$server$2e$js__$5b$app$2d$rsc$5d$__$28$ecmascript$29$__["notFound"])();
     }
@@ -499,7 +500,7 @@ function ProductPage({ params }) {
         product: product
     }, void 0, false, {
         fileName: "[project]/app/produse/[id]/page.tsx",
-        lineNumber: 12,
+        lineNumber: 13,
         columnNumber: 10
     }, this);
 }

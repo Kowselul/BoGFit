@@ -1,11 +1,1 @@
-{
-  "version": 4,
-  "routes": {},
-  "dynamicRoutes": {},
-  "notFoundRoutes": [],
-  "preview": {
-    "previewModeId": "bf59b18ae7f3683b0a0bc7d360b0063d",
-    "previewModeSigningKey": "480cbc6f438111369ab6f390d18fce1d9e8bb2a5b8de0f3558e9277447ad82d4",
-    "previewModeEncryptionKey": "6f5452e76a42dd6eac1a586854b00209b81b87cf9de63fd85b63addf0c8519a4"
-  }
-}
+{"version":4,"routes":{"/produse/1":{},"/produse/2":{},"/produse/3":{},"/produse/4":{},"/produse/5":{},"/produse/6":{},"/produse/7":{},"/produse/8":{},"/produse/9":{},"/produse/10":{},"/produse/11":{},"/produse/12":{},"/produse/13":{},"/produse/14":{},"/produse/15":{},"/produse/16":{},"/produse/17":{},"/produse/18":{},"/produse/19":{},"/produse/20":{},"/produse/21":{},"/produse/22":{},"/produse/23":{},"/produse/24":{},"/produse/25":{},"/produse/26":{},"/produse/27":{},"/produse/28":{},"/produse/29":{},"/produse/30":{},"/produse/31":{},"/produse/32":{},"/produse/33":{},"/produse/34":{},"/produse/35":{},"/produse/36":{},"/produse/37":{},"/produse/38":{},"/produse/39":{},"/produse/40":{}},"dynamicRoutes":{"/produse/[id]":{"dataRoute":null,"dataRouteRegex":null,"fallback":null,"fallbackRevalidate":false,"fallbackSourceRoute":"/produse/[id]","routeRegex":"^\\/produse\\/([^/]+?)(?:\\/)?$","allowHeader":[]}},"notFoundRoutes":[],"preview":{"previewModeId":"bf59b18ae7f3683b0a0bc7d360b0063d","previewModeSigningKey":"480cbc6f438111369ab6f390d18fce1d9e8bb2a5b8de0f3558e9277447ad82d4","previewModeEncryptionKey":"6f5452e76a42dd6eac1a586854b00209b81b87cf9de63fd85b63addf0c8519a4"}}

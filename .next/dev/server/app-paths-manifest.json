@@ -1,6 +1,11 @@
 {
+  "/api/send-confirmation/route": "app/api/send-confirmation/route.js",
   "/calorie-tracker/page": "app/calorie-tracker/page.js",
+  "/checkout/page": "app/checkout/page.js",
+  "/confirmare/page": "app/confirmare/page.js",
+  "/login/page": "app/login/page.js",
   "/page": "app/page.js",
   "/plan-antrenament/page": "app/plan-antrenament/page.js",
+  "/produse/[id]/page": "app/produse/[id]/page.js",
   "/produse/page": "app/produse/page.js"
 }
