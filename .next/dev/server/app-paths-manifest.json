@@ -1,11 +1,6 @@
 {
-  "/api/send-confirmation/route": "app/api/send-confirmation/route.js",
-  "/checkout/page": "app/checkout/page.js",
-  "/comenzi/page": "app/comenzi/page.js",
-  "/confirmare/page": "app/confirmare/page.js",
-  "/login/page": "app/login/page.js",
+  "/calorie-tracker/page": "app/calorie-tracker/page.js",
   "/page": "app/page.js",
-  "/produse/[id]/page": "app/produse/[id]/page.js",
-  "/produse/page": "app/produse/page.js",
-  "/profil/page": "app/profil/page.js"
+  "/plan-antrenament/page": "app/plan-antrenament/page.js",
+  "/produse/page": "app/produse/page.js"
 }

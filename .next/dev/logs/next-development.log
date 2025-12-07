@@ -1,45 +1,508 @@
-[00:00:01.801] Server  LOG      ✓ Ready in 1299ms
-[00:00:07.861] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:00:08.288] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:00:08.288] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
-[00:00:08.288] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318041640}
-[00:00:25.118] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:00:25.118] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://localhost:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318058467}
-[00:00:26.266] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318059616}
-[00:00:29.308] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318062658}
-[00:00:33.838] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318067185}
-[00:01:17.764] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\node_modules_next_dist_3b4d20e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:17.765] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\[root-of-the-server]__ce90c7a6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:01:17.766] Server  WARN    Error: Route "/produse/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:01:17.919] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse/3 color: rgb(120, 120, 120) color: inherit {"dp":"/produse/[id]","o":"http://localhost:3000/produse/3","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318111273}
-[00:01:18.825] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318112171}
-[00:01:47.004] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://localhost:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318140353}
-[00:02:29.114] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\node_modules_next_dist_3b4d20e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:02:29.115] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\[root-of-the-server]__ce90c7a6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:02:29.115] Server  WARN    Error: Route "/produse/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:02:29.239] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse/16 color: rgb(120, 120, 120) color: inherit {"dp":"/produse/[id]","o":"http://localhost:3000/produse/16","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318182593}
-[00:02:30.247] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://localhost:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318183591}
-[00:02:30.979] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\node_modules_next_dist_3b4d20e1._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:02:30.980] Server  ERROR   C:\Users\bocan\Desktop\code\.next\dev\server\chunks\ssr\[root-of-the-server]__ce90c7a6._.js: Invalid source map. Only conformant source maps can be used to find the original code. Cause: Error: sourceMapURL could not be parsed
-[00:02:30.980] Server  WARN    Error: Route "/produse/[id]" used `params.id`. `params` is a Promise and must be unwrapped with `await` or `React.use()` before accessing its properties. Learn more: https://nextjs.org/docs/messages/sync-dynamic-apis
-[00:02:31.106] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse/39 color: rgb(120, 120, 120) color: inherit {"dp":"/produse/[id]","o":"http://localhost:3000/produse/39","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318184459}
-[00:02:31.741] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://localhost:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318185094}
-[00:03:02.319] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/checkout color: rgb(120, 120, 120) color: inherit {"dp":"/checkout","o":"http://localhost:3000/checkout","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318215667}
-[00:03:10.937] Server  LOG     [v0] Order confirmation email prepared: {}
-[00:03:10.938] Server  LOG     [v0] Email content:
- "\n      Comandă confirmată #642292\n      \n      Bună Iulian Bocanci-Soldanescu,\n      \n      Mulțumim pentru comanda ta de la BoGFit!\n      \n      Detalii comandă:\n      - Număr comandă: #642292\n      - Total: 229.98 RON\n      - Adresă livrare: Republicii, 38, Radaseni, Suceava, 727460\n      - Metodă livrare: Express (1-2 zile)\n      - Metodă plată: Ramburs\n      \n      Produse comandate:\n      - Căști Sport Bluetooth x1 - 199.99 RON\n      \n      Vei primi un email de confirmare la bocanciiulian2000@gmail.com în cel mai scurt timp.\n      \n      Cu respect,\n      Echipa BoGFit\n    "
-[00:03:11.269] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/confirmare?order=642292&email=bocanciiulian2000%40gmail.com color: rgb(120, 120, 120) color: inherit {"dp":"/confirmare","o":"http://localhost:3000/confirmare?order=642292&email=bocanciiulian2000%40gmail.com","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318224621}
-[00:03:13.774] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318227122}
-[00:03:16.444] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/comenzi color: rgb(120, 120, 120) color: inherit {"dp":"/comenzi","o":"http://localhost:3000/comenzi","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318229794}
-[00:03:20.172] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/profil color: rgb(120, 120, 120) color: inherit {"dp":"/profil","o":"http://localhost:3000/profil","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318233515}
-[00:03:22.482] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/comenzi color: rgb(120, 120, 120) color: inherit {"dp":"/comenzi","o":"http://localhost:3000/comenzi","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318235832}
-[00:04:03.883] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
-[00:04:04.169] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
-[00:04:04.169] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/comenzi","route":"/comenzi"}
-[00:04:04.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/comenzi color: rgb(120, 120, 120) color: inherit {"dp":"/comenzi","o":"http://localhost:3000/comenzi","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318277475}
-[00:04:04.169] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
-[00:04:04.169] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/login color: rgb(120, 120, 120) color: inherit {"dp":"/login","o":"http://localhost:3000/login","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318277519}
-[00:04:08.834] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318282182}
-[00:04:10.785] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/comenzi color: rgb(120, 120, 120) color: inherit {"dp":"/comenzi","o":"http://localhost:3000/comenzi","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318284135}
-[00:04:12.809] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://localhost:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318286160}
-[00:04:25.177] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://localhost:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://localhost:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1763318298527}
+[00:00:01.670] Server  LOG      ✓ Ready in 1203ms
+[00:00:11.398] Server  WARN     ⚠ Cross origin request detected from 192.168.100.65 to /_next/* resource. In a future major version of Next.js, you will need to explicitly configure "allowedDevOrigins" in next.config to allow this.
+Read more: https://nextjs.org/docs/app/api-reference/config/next-config-js/allowedDevOrigins
+[00:00:11.426] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:00:11.807] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:00:11.807] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:00:11.807] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.65:3000/","r":"","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765137455634}
+[00:07:55.808] Server  LOG      ✓ Compiled in 101ms
+[00:07:57.083] Server  LOG      ✓ Compiled in 130ms
+[00:08:50.642] Server  LOG      ✓ Compiled in 63ms
+[00:08:50.774] Server  LOG      ✓ Compiled in 93ms
+[00:08:50.996] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:08:50.996] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:33.845] Server  ERROR    ⨯ ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+
+./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+[00:09:33.968] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:33.968] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.598] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.598] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.598] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.598] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.733] Browser ERROR   uncaughtError: Error: ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+[00:09:34.887] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.887] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.887] Browser ERROR   ./components/header.tsx:130:7
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |       ^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:09:34.887] Browser ERROR   ./components/header.tsx:130:8
+Parsing ecmascript source code failed
+  128 |               className="md:hidden transition-transform duration-200 hover:scale-110"
+  129 |               onClick={() => setIsMobileMenuOpen(true)}
+> 130 |       </header>
+      |        ^^^^^^^^
+  131 |       
+  132 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  133 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:16.332] Browser ERROR   ./components/header.tsx:243:7
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |       ^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:16.332] Browser ERROR   ./components/header.tsx:243:8
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |        ^^^^^^^^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:48.541] Server  ERROR    ⨯ ./components/header.tsx:243:7
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |       ^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+
+./components/header.tsx:243:8
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |        ^^^^^^^^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+[00:10:48.621] Browser ERROR   uncaughtError: Error: ./components/header.tsx:243:7
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |       ^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+
+
+[00:10:48.777] Browser ERROR   ./components/header.tsx:243:7
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |       ^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:48.777] Browser ERROR   ./components/header.tsx:243:8
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |        ^^^^^^^^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:48.777] Browser ERROR   ./components/header.tsx:243:7
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |       ^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Expression expected
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:10:48.777] Browser ERROR   ./components/header.tsx:243:8
+Parsing ecmascript source code failed
+  241 |       
+  242 |       {isSearchOpen && (
+> 243 |       </header>
+      |        ^^^^^^^^
+  244 |       
+  245 |       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+  246 |       
+
+Unterminated regexp literal
+
+Import trace:
+  Server Component:
+    ./components/header.tsx
+    ./app/page.tsx
+[00:11:38.048] Server  LOG      ✓ Compiled in 55ms
+[00:11:38.335] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:11:38.511] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:11:38.511] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/","route":"/"}
+[00:11:38.511] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.65:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138142343}
+[00:12:28.989] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:12:28.989] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/calorie-tracker color: rgb(120, 120, 120) color: inherit {"dp":"/calorie-tracker","o":"http://192.168.100.65:3000/calorie-tracker","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138192819}
+[00:16:04.234] Server  LOG      ✓ Compiled in 71ms
+[00:16:05.360] Server  LOG      ✓ Compiled in 106ms
+[00:16:32.118] Server  ERROR    ⨯ ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+
+
+[00:16:32.165] Browser ERROR   ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+[00:16:32.179] Server  ERROR    ⨯ ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+
+
+[00:16:32.309] Browser ERROR   uncaughtError: Error: ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+
+
+[00:16:32.456] Browser ERROR   ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+[00:16:32.456] Browser ERROR   ./app/plan-antrenament/page.tsx:138:23
+Parsing ecmascript source code failed
+  136 |       { name: 'Box Jumps', sets: 3, reps: '10-12', rest: '60s' },
+  137 |       { name: 'Battle Ropes', sets: 3, reps: '30s', rest: '45s' },
+> 138 |       { name: 'Farmer's Walk', sets: 3, reps: '40m', rest: '60s' },
+      |                       ^
+  139 |       { name: 'TRX Rows', sets: 3, reps: '12-15', rest: '45s' },
+  140 |       { name: 'Medicine Ball Slams', sets: 3, reps: '15', rest: '45s' },
+  141 |       { name: 'Cool Down & Stretching', sets: 1, reps: '10 min', rest: '-' }
+
+Expected ',', got 's'
+[00:16:44.116] Server  LOG      ✓ Compiled in 59ms
+[00:16:44.403] Browser INFO    %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+[00:16:44.566] Browser LOG     %c[Vercel Web Analytics]%c Debug mode is enabled by default in development. No requests will be sent to the server. color: rgb(120, 120, 120) color: inherit
+[00:16:44.566] Browser LOG     %c[Vercel Web Analytics]%c Running queued event color: rgb(120, 120, 120) color: inherit pageview {"path":"/plan-antrenament","route":"/plan-antrenament"}
+[00:16:44.566] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/plan-antrenament color: rgb(120, 120, 120) color: inherit {"dp":"/plan-antrenament","o":"http://192.168.100.65:3000/plan-antrenament","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138448398}
+[00:17:02.829] Browser WARN    Detected `scroll-behavior: smooth` on the `<html>` element. To disable smooth scrolling during route transitions, add `data-scroll-behavior="smooth"` to your <html> element. Learn more: https://nextjs.org/docs/messages/missing-data-scroll-behavior
+[00:17:02.829] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.65:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138466659}
+[00:17:09.663] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/calorie-tracker color: rgb(120, 120, 120) color: inherit {"dp":"/calorie-tracker","o":"http://192.168.100.65:3000/calorie-tracker","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138473496}
+[00:17:19.991] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/plan-antrenament color: rgb(120, 120, 120) color: inherit {"dp":"/plan-antrenament","o":"http://192.168.100.65:3000/plan-antrenament","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138483823}
+[00:17:31.430] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.65:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138495263}
+[00:17:33.168] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/calorie-tracker color: rgb(120, 120, 120) color: inherit {"dp":"/calorie-tracker","o":"http://192.168.100.65:3000/calorie-tracker","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138497000}
+[00:17:33.622] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/plan-antrenament color: rgb(120, 120, 120) color: inherit {"dp":"/plan-antrenament","o":"http://192.168.100.65:3000/plan-antrenament","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138497455}
+[00:17:35.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://192.168.100.65:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138499663}
+[00:17:35.935] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/calorie-tracker color: rgb(120, 120, 120) color: inherit {"dp":"/calorie-tracker","o":"http://192.168.100.65:3000/calorie-tracker","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138499766}
+[00:17:36.619] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/produse color: rgb(120, 120, 120) color: inherit {"dp":"/produse","o":"http://192.168.100.65:3000/produse","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138500449}
+[00:17:40.323] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/calorie-tracker color: rgb(120, 120, 120) color: inherit {"dp":"/calorie-tracker","o":"http://192.168.100.65:3000/calorie-tracker","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138504157}
+[00:19:11.010] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/plan-antrenament color: rgb(120, 120, 120) color: inherit {"dp":"/plan-antrenament","o":"http://192.168.100.65:3000/plan-antrenament","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138594842}
+[00:19:29.094] Browser LOG     %c[Vercel Web Analytics]%c [pageview] http://192.168.100.65:3000/ color: rgb(120, 120, 120) color: inherit {"dp":"/","o":"http://192.168.100.65:3000/","sdkn":"@vercel/analytics/next","sdkv":"1.5.0","sv":"0.1.3","ts":1765138612924}

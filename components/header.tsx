@@ -1,7 +1,7 @@
 'use client'
 
 import Link from 'next/link'
-import { ShoppingCart, Menu, Search, X, User, LogOut, Package } from 'lucide-react'
+import { ShoppingCart, Menu, Search, X, User, LogOut, Package, Home, Target, Dumbbell } from 'lucide-react'
 import { Button } from '@/components/ui/button'
 import { useCart } from '@/lib/cart-context'
 import { useAuth } from '@/lib/auth-context'
@@ -22,6 +22,7 @@ export function Header() {
   const { totalItems } = useCart()
   const { user, logout } = useAuth()
   const [isCartOpen, setIsCartOpen] = useState(false)
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
   const [isSearchOpen, setIsSearchOpen] = useState(false)
   const [searchQuery, setSearchQuery] = useState('')
   const router = useRouter()
@@ -54,6 +55,12 @@ export function Header() {
             <nav className="hidden md:flex items-center gap-6">
               <Link href="/produse" className="text-sm font-medium text-foreground hover:text-accent transition-colors duration-200">
                 Produse
+              </Link>
+              <Link href="/calorie-tracker" className="text-sm font-medium text-foreground hover:text-accent transition-colors duration-200">
+                Calorie Tracker
+              </Link>
+              <Link href="/plan-antrenament" className="text-sm font-medium text-foreground hover:text-accent transition-colors duration-200">
+                Plan Antrenament
               </Link>
             </nav>
           </div>
@@ -118,7 +125,12 @@ export function Header() {
               </Button>
             )}
             
-            <Button variant="ghost" size="icon" className="md:hidden transition-transform duration-200 hover:scale-110">
+            <Button 
+              variant="ghost" 
+              size="icon" 
+              className="md:hidden transition-transform duration-200 hover:scale-110"
+              onClick={() => setIsMobileMenuOpen(true)}
+            >
               <Menu className="h-5 w-5" />
             </Button>
           </div>
@@ -126,6 +138,117 @@ export function Header() {
       </header>
       
       <CartDrawer isOpen={isCartOpen} onClose={() => setIsCartOpen(false)} />
+      
+      {/* Mobile Menu */}
+      {isMobileMenuOpen && (
+        <div className="fixed inset-0 z-50 md:hidden">
+          <div 
+            className="absolute inset-0 bg-black/50 backdrop-blur-sm"
+            onClick={() => setIsMobileMenuOpen(false)}
+          />
+          <div className="absolute right-0 top-0 h-full w-[280px] bg-background shadow-xl animate-in slide-in-from-right duration-300">
+            <div className="flex h-full flex-col">
+              <div className="flex items-center justify-between border-b border-border p-4">
+                <span className="text-lg font-bold text-foreground">Menu</span>
+                <Button variant="ghost" size="icon" onClick={() => setIsMobileMenuOpen(false)}>
+                  <X className="h-5 w-5" />
+                </Button>
+              </div>
+              
+              <nav className="flex-1 p-4 space-y-2">
+                <Link 
+                  href="/" 
+                  className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Home className="h-5 w-5 text-accent" />
+                  <span className="font-medium">Acasă</span>
+                </Link>
+                <Link 
+                  href="/produse" 
+                  className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Package className="h-5 w-5 text-accent" />
+                  <span className="font-medium">Produse</span>
+                </Link>
+                <Link 
+                  href="/calorie-tracker" 
+                  className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Target className="h-5 w-5 text-accent" />
+                  <span className="font-medium">Calorie Tracker</span>
+                </Link>
+                <Link 
+                  href="/plan-antrenament" 
+                  className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                  onClick={() => setIsMobileMenuOpen(false)}
+                >
+                  <Dumbbell className="h-5 w-5 text-accent" />
+                  <span className="font-medium">Plan Antrenament</span>
+                </Link>
+                <button 
+                  className="flex w-full items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                  onClick={() => {
+                    setIsMobileMenuOpen(false)
+                    setIsSearchOpen(true)
+                  }}
+                >
+                  <Search className="h-5 w-5 text-accent" />
+                  <span className="font-medium">Caută</span>
+                </button>
+                
+                {user ? (
+                  <>
+                    <div className="border-t border-border my-2 pt-2">
+                      <div className="px-3 py-2">
+                        <p className="text-sm font-semibold text-foreground">{user.name}</p>
+                        <p className="text-xs text-muted-foreground">{user.email}</p>
+                      </div>
+                    </div>
+                    <Link 
+                      href="/profil" 
+                      className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <User className="h-5 w-5 text-accent" />
+                      <span className="font-medium">Profilul Meu</span>
+                    </Link>
+                    <Link 
+                      href="/comenzi" 
+                      className="flex items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors"
+                      onClick={() => setIsMobileMenuOpen(false)}
+                    >
+                      <Package className="h-5 w-5 text-accent" />
+                      <span className="font-medium">Comenzile Mele</span>
+                    </Link>
+                    <button 
+                      className="flex w-full items-center gap-3 rounded-lg p-3 hover:bg-muted transition-colors text-destructive"
+                      onClick={() => {
+                        logout()
+                        setIsMobileMenuOpen(false)
+                      }}
+                    >
+                      <LogOut className="h-5 w-5" />
+                      <span className="font-medium">Deconectare</span>
+                    </button>
+                  </>
+                ) : (
+                  <Link 
+                    href="/login" 
+                    className="flex items-center gap-3 rounded-lg p-3 bg-accent text-accent-foreground hover:bg-accent/90 transition-colors"
+                    onClick={() => setIsMobileMenuOpen(false)}
+                  >
+                    <User className="h-5 w-5" />
+                    <span className="font-medium">Autentificare</span>
+                  </Link>
+                )}
+              </nav>
+            </div>
+          </div>
+        </div>
+      )}
       
       {isSearchOpen && (
         <div className="fixed inset-0 z-50 bg-black/50 backdrop-blur-sm animate-in fade-in duration-200" onClick={() => setIsSearchOpen(false)}>
